@@ -1,0 +1,22 @@
+{
+  "name": "roUI",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron ./src/index.js",
+    "build": "npx electron-packager ./ --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "find-process": "^1.4.7",
+    "websocket": "^1.0.34",
+    "ws": "^7.5.3"
+  },
+  "devDependencies": {
+    "electron": "^13.1.7"
+  }
+}
